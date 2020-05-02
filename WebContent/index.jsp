@@ -19,7 +19,7 @@
 	<c:import url="Menu.jsp"/>
     <!-- Container Principal -->
     <div id="main" class="container">
-        <h3 class="page-header">Incluir Pais</h3>
+        <h3 class="page-header">Cadastro de Paises</h3>
         <!-- Formulario para inclusao de clientes -->
         <form action="ManterPais.do" method="post">
             <!-- area de campos do form -->
@@ -43,7 +43,7 @@
             <hr />
             <div id="actions" class="row">
                 <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary" name="acao" value="Criar">Salvar</button>
+                    <button type="submit" class="btn btn-primary" name="acao" value="Incluir">Cadastro</button>
                     <button type="submit" class="btn btn-info" name="acao" value="Listar">Lista</button>
                     <a href="index.jsp" class="btn btn-default">Cancelar</a>
                 </div>
